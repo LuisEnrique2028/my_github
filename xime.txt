@@ -19,6 +19,8 @@ Git es un software de control de versiones dise�ado por Linus Torvalds, pensan
 
 HUB: (CENTRO, CONCENTRADOR, PUNTO NODAL)
 
+GitHub es una plataforma de hospedaje de código para el control de versiones y la colaboración. Este permite que tú y otras personas trabajen juntos en proyectos desde donde sea
+
 GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creaci�n de c�digo fuente de programas de ordenador. El software que opera GitHub fue escrito en Ruby on Rails. Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc.
 
  ##  27/04/2022
@@ -33,4 +35,14 @@ GitHub es una forja para alojar proyectos utilizando el sistema de control de ve
  git config user.email
  git config user.name
 
+
+#
+#   After GITHUB
+#
+
+git remote add origin https://github.com/LuisEnrique2028/my_github.git
+
+git branch -M main
+
+git push -u origin main
 
