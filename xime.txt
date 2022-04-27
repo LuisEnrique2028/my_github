@@ -7,7 +7,7 @@ insecticida
 pinol
 
 
---	Git y Github: Curso desde cero [Tutorial en Español] #clasesConBluuweb
+--	Git y Github: Curso desde cero [Tutorial en Espaï¿½ol] #clasesConBluuweb
 https://youtu.be/PW_A-lOpVV0
 
 
@@ -15,9 +15,20 @@ GIT: SOFTWARE DE CONTROL DE VERSIONES(CRETINO, IDIOTA)
 
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
-Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.
+Git es un software de control de versiones diseï¿½ado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran nï¿½mero de archivos de cï¿½digo fuente.
 
 HUB: (CENTRO, CONCENTRADOR, PUNTO NODAL)
 
-GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas de ordenador. El software que opera GitHub fue escrito en Ruby on Rails. Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc.
+GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creaciï¿½n de cï¿½digo fuente de programas de ordenador. El software que opera GitHub fue escrito en Ruby on Rails. Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc.
+
+ ##  27/04/2022
+ git version
+ git status -s
+ git add .
+ git commit -m "Mi primera prueba GIT"
+ git config --global user.email "pmle19661017@gmail.com" 
+ git log
+ git log --oneline
+ 
+
 
