@@ -94,3 +94,12 @@ git branch <branchname> /*Crea una rama*/
 git checkout <branchname>   /*Cambiar ram*/
 
 git log --oneline --graph
+
+git push
+
+->    git push --set-upstream origin dev              !!!
+
+
+
+
+
