@@ -46,3 +46,11 @@ git branch -M main
 
 git push -u origin main
 
+#
+#   "git push" -> enviar los objetos al repositorio remoto
+#
+
+
+#
+#   El archivo .gitignore contiene todos los archivos a los que no se les da seguimiento !!!
+#
