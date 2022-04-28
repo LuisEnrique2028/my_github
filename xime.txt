@@ -59,3 +59,68 @@ git push -u origin main
 #
 #   TODO: volver a revisar clonaciones !!!
 #
+
+
+#
+#   Creación de la rama main
+#
+
+#   una sola vez
+git branch -m master main
+
+#   forever
+git config --global init.defaultbranch main
+
+#
+#   RESET
+#
+
+git reset ID
+git reset --hard ID (ID puede ser cualquier  ID)
+git reflog
+
+#
+#   revert: borra un commit y crea otro
+#
+
+
+
+#
+#   ramas
+#
+
+git branch
+git branch <branchname> /*Crea una rama*/
+git checkout <branchname>   /*Cambiar ram*/
+
+git log --oneline --graph
+
+git push
+
+->    git push --set-upstream origin dev              !!!
+
+
+
+#
+#   MERGE: Llevar los cambios de una rama a otra
+#
+
+#   Debes estar  en la rama en la que quieres traer los cambios
+git checkout <branch>
+
+#   Traer los cambios
+git merge dev
+
+
+
+#
+#   Tags(Versionamientos)
+#
+
+git checkout <BranchName>
+
+git tag versionAlpha -m "0.0.1"
+
+git log --oneline
+
+git push --tags
