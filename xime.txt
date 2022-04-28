@@ -123,3 +123,4 @@ git tag versionAlpha -m "0.0.1"
 
 git log --oneline
 
+git push --tags
