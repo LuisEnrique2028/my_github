@@ -101,5 +101,25 @@ git push
 
 
 
+#
+#   MERGE: Llevar los cambios de una rama a otra
+#
 
+#   Debes estar  en la rama en la que quieres traer los cambios
+git checkout <branch>
+
+#   Traer los cambios
+git merge dev
+
+
+
+#
+#   Tags(Versionamientos)
+#
+
+git checkout <BranchName>
+
+git tag versionAlpha -m "0.0.1"
+
+git log --oneline
 
